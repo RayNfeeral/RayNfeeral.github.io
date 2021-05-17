@@ -2,32 +2,64 @@ body {
   background-color: #414535;
   color: #f2e3bc;
   font-family: 'Roboto', sans-serif;
+  padding: 3%;
 }
 
-p {
-  font-family: serif;
+div {
+  border: 2px solid green;
 }
 
-em {
-  font-weight: 600;
+ul li:nth-child(odd) {
+  background-color: #618985;
 }
 
-.size-16 {
-  font-size: 16px;
+.about {
+  font-family: 'Merriweather', serif;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 33%;
+  left: 300px;
+  right: 0px;
+  top: 33%;
+  text-align: center;
 }
 
-.size-20 {
+.css {
   font-size: 20px;
 }
 
-.size-24 {
+.html {
   font-size: 24px;
 }
 
-.size-28 {
+.javascript {
+  font-size: 30px;
+}
+
+.my_name {
+  text-align: center;
+}
+
+.node {
+  font-size: 16px;
+}
+
+.profile_container {
+  height: 300px;
+  position: relative;
+}
+
+.profile_img {
+  background-color: #618985;
+  height: 290px;
+  float: left;
+  padding: 5px;
+}
+
+.react {
   font-size: 28px;
 }
 
-.size-30 {
-  font-size: 30px;
+.residence {
+  font-weight: 600;
 }
